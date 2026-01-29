@@ -1,11 +1,10 @@
-# Fixed requirements for Streamlit Cloud compatibility
-streamlit>=1.28.0
-pandas>=2.0.0
-# Pin numpy < 2.0.0 to prevent conflicts with SHAP/Numba
+streamlit
+pandas
 numpy<2.0.0
-scikit-learn>=1.3.0
-plotly>=5.17.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
-xgboost>=2.0.0
-shap>=0.44.0
+scikit-learn
+plotly
+matplotlib
+seaborn
+xgboost
+shap
+numba
