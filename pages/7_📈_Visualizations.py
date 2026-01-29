@@ -236,6 +236,8 @@ def main():
             st.warning("⚠️ Please train models first to see SHAP explanations.")
         else:
             import shap
+            import matplotlib
+            matplotlib.use('Agg') # Force headless backend
             import matplotlib.pyplot as plt
             
             model_name = st.session_state.get('selected_model', list(st.session_state.trained_models.keys())[0])
