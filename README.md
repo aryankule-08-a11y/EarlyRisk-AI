@@ -4,8 +4,12 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red?style=for-the-badge&logo=streamlit)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.3+-orange?style=for-the-badge&logo=scikit-learn)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://earlyrisk-ai.streamlit.app/)
 
 A production-ready Streamlit web application that demonstrates **Early Fraud Detection** using **Weak Supervision** techniques. This project shows how to detect fraudulent transactions without expensive manual labeling by using rule-based labeling functions.
+
+## 🔴 Live Demo
+👉 **[Click here to view the live app](https://earlyrisk-ai.streamlit.app/)**
 
 ## 🎯 Features
 
@@ -29,7 +33,7 @@ A production-ready Streamlit web application that demonstrates **Early Fraud Det
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/aryankule-08-a11y/ANTI-GRAVITY-all-files.git
+git clone https://github.com/aryankule-08-a11y/EarlyRisk-AI.git
 cd Fraud_Signal_Detection
 ```
 
